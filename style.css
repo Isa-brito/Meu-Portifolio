@@ -94,6 +94,10 @@ header nav.menu-desktop ul li {
     font-size: 40px;
 }
 
+.btn-abrir{
+    display: none;
+}
+
 .menu-mobile{
     background-color: rgb(0, 0, 0);
     height: 100vh;
@@ -464,6 +468,7 @@ footer .btn-social {
     .logo img {
         width: 170px;
         height: 63px;
+        padding-left: 30px;
     }
 
     .menu-desktop,
@@ -552,5 +557,10 @@ footer .btn-social {
 
     footer .line-footer {
         text-align: center;
+    }
+
+    .btn-abrir{
+        display: block;
+        padding: 30px;
     }
 }
